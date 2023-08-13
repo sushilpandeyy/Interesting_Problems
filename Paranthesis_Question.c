@@ -4,7 +4,7 @@ int maxi(char ar[100]){
 int stack[strlen(ar)];
     int top=-1;
     int symlen=0;
-    int maxsem=0;
+    int maxsem=0;     //It store length of max symm
     if(strlen(ar)%2==1){
         printf("Not Symmetric");
         return 0;
